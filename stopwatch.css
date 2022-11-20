@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(14, 1, 1, 0.438);
+    background-color: peru;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,4 +18,30 @@ body{
 .txt{
     font-size: 40px;
     font-weight: bold;
+}
+
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn{
+    padding: 7px 25px;
+    font-size: 20px;
+    margin: 0px 10px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+#start{
+    background-color: blueviolet;
+}
+
+#stop{
+    background-color: green;
+}
+
+#reset{
+    background-color: red;
 }
